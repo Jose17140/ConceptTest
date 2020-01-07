@@ -1,9 +1,7 @@
-﻿using Mobile.Models;
-using System;
+﻿using Mobile.Core.Models;
 using System.Collections.Generic;
 using System.ComponentModel;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Mobile.Views
 {

@@ -1,12 +1,10 @@
-﻿using System;
+﻿using Mobile.Core.Models;
+using Mobile.Views;
+using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
-
-using Mobile.Models;
-using Mobile.Views;
 
 namespace Mobile.ViewModels
 {

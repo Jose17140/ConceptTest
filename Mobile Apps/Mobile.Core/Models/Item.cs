@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Mobile.Models
+﻿namespace Mobile.Core.Models
 {
     public class Item
     {

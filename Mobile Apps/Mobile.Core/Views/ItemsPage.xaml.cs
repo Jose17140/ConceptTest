@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-
-using Mobile.Models;
-using Mobile.Views;
+﻿using Mobile.Core.Models;
 using Mobile.ViewModels;
+using System;
+using System.ComponentModel;
+using Xamarin.Forms;
 
 namespace Mobile.Views
 {
