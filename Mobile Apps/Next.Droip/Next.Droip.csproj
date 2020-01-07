@@ -15,7 +15,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -84,12 +83,27 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\drawable\xamarin_logo.png" />
+    <AndroidResource Include="Resources\drawable\Logo.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Shared Code\Next.Core\Next.Core.csproj">
       <Project>{95300DF7-0DDD-4CEF-BC48-4676C734C8F4}</Project>
       <Name>Next.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="..\..\CommonResources\Fonts\Montserrat-Bold.ttf">
+      <Link>Assets\Montserrat-Bold.ttf</Link>
+    </AndroidAsset>
+    <AndroidAsset Include="..\..\CommonResources\Fonts\Montserrat-Regular.ttf">
+      <Link>Assets\Montserrat-Regular.ttf</Link>
+    </AndroidAsset>
+    <AndroidAsset Include="..\..\CommonResources\Fonts\SourceSansPro-Regular.ttf">
+      <Link>Assets\SourceSansPro-Regular.ttf</Link>
+    </AndroidAsset>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

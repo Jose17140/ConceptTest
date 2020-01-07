@@ -121,6 +121,16 @@
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="..\..\CommonResources\Fonts\SourceSansPro-Regular.ttf">
+      <Link>Resources\Fonts\SourceSansPro-Regular.ttf</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\CommonResources\Fonts\Montserrat-Bold.ttf">
+      <Link>Resources\Fonts\Montserrat-Bold.ttf</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\CommonResources\Fonts\Montserrat-Regular.ttf">
+      <Link>Resources\Fonts\Montserrat-Regular.ttf</Link>
+    </BundleResource>
+    <BundleResource Include="Resources\Logo.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
